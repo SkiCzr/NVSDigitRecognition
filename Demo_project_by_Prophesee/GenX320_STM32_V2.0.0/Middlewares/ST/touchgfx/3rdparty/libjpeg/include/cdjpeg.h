@@ -3,7 +3,7 @@
  *
  * Copyright (C) 1994-1997, Thomas G. Lane.
  * This file is part of the Independent JPEG Group's software.
- * For conditions of distribution and use, see the accompanying README file.
+ * For conditions of distribution and use, see the accompanying README.md file.
  *
  * This file contains common declarations for the sample applications
  * cjpeg and djpeg.  It is NOT used by the core JPEG library.

@@ -4,7 +4,7 @@
  * Copyright (C) 1991-1998, Thomas G. Lane.
  * Modified 2002-2011 by Guido Vollbeding.
  * This file is part of the Independent JPEG Group's software.
- * For conditions of distribution and use, see the accompanying README file.
+ * For conditions of distribution and use, see the accompanying README.md file.
  *
  * This file defines the application interface for the JPEG library.
  * Most applications using the library need only include this file,

@@ -3,7 +3,7 @@
  *
  * Copyright (C) 1992-1997, Thomas G. Lane.
  * This file is part of the Independent JPEG Group's software.
- * For conditions of distribution and use, see the accompanying README file.
+ * For conditions of distribution and use, see the accompanying README.md file.
  *
  * This include file defines the interface between the system-independent
  * and system-dependent portions of the JPEG memory manager.  No other
