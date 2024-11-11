@@ -1,0 +1,1765 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen_1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 272,
+            "Height": 480,
+            "RelativeFilename": "finalscreen.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Logo_BG",
+            "Width": 272,
+            "Height": 160,
+            "RelativeFilename": "BG.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "EV_Text",
+            "X": 7,
+            "Y": 38,
+            "Width": 230,
+            "Height": 133,
+            "TextId": "__SingleUse_GAAU",
+            "TextRotation": "90",
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_JNFW",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "Banner",
+            "Width": 272,
+            "Height": 63,
+            "Visible": false,
+            "RelativeFilename": "Screen 1.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ER_Text",
+            "X": 165,
+            "Y": 32,
+            "Width": 107,
+            "Height": 106,
+            "TextId": "__SingleUse_YYMQ",
+            "TextRotation": "90",
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Bar_Text_0",
+            "X": 158,
+            "Y": 80,
+            "Width": 8,
+            "Height": 15,
+            "Visible": false,
+            "TextId": "__SingleUse_OS4M",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Bar_Text_0_10",
+            "X": 253,
+            "Y": 80,
+            "Width": 13,
+            "Height": 15,
+            "Visible": false,
+            "TextId": "__SingleUse_JU2A",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Kev_Text",
+            "X": 167,
+            "Y": 124,
+            "Width": 62,
+            "Height": 12,
+            "Visible": false,
+            "TextId": "__SingleUse_J2TV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PC_Text",
+            "X": 10,
+            "Y": 97,
+            "Width": 144,
+            "Height": 13,
+            "Visible": false,
+            "TextId": "__SingleUse_HC5R",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            }
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "PC_Progress",
+            "X": 161,
+            "Y": 100,
+            "Width": 100,
+            "Height": 10,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 114,
+              "Blue": 118
+            },
+            "Direction": "Right",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_normal_tiny.png",
+            "IndicatorPositionWidth": 100,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 8680,
+            "ProgressInitialValue": 8680
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "changeScreenRightInt",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_1 changeScreenRight"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_2"
+            }
+          },
+          {
+            "InteractionName": "updateEventsInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateEvents"
+            }
+          },
+          {
+            "InteractionName": "changeScreenDownInt",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_1 changeScreenDown"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_1_Statistics"
+            }
+          },
+          {
+            "InteractionName": "screenInitInt",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "screenInit"
+            }
+          },
+          {
+            "InteractionName": "checkI2CStatusInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "checkI2CStatus"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "changeScreenRight"
+          },
+          {
+            "Name": "changeScreenDown"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_1_Statistics",
+        "CanvasBufferSize": 4080,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "BG_2",
+            "Y": 300,
+            "Width": 272,
+            "Height": 180,
+            "RelativeFilename": "Graph Bg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "BG_1",
+            "Y": 120,
+            "Width": 272,
+            "Height": 180,
+            "RelativeFilename": "Graph Bg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "BG_Small",
+            "Width": 272,
+            "Height": 120,
+            "RelativeFilename": "BG_Small.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Line",
+            "Y": 299,
+            "Width": 272,
+            "Height": 2,
+            "RelativeFilename": "Filler_2.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Banner",
+            "Width": 272,
+            "Height": 63,
+            "RelativeFilename": "Screen 2.png"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "AFK_Graph",
+            "Y": 301,
+            "Width": 272,
+            "Height": 179,
+            "DataSeed": 736612216,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 37,
+            "LabelSizeBottom": 5,
+            "LabelSizeLeft": 35,
+            "PaddingTop": 6,
+            "PaddingBottom": 6,
+            "PaddingLeft": 6,
+            "PaddingRight": 6,
+            "GraphType": "GraphWrapClear",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255,
+                  "Green": 143,
+                  "Blue": 108
+                }
+              }
+            ],
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 64,
+                "Green": 126,
+                "Blue": 201
+              },
+              "TextId": "__SingleUse_5QQ6",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "Events_Graph",
+            "Y": 120,
+            "Width": 272,
+            "Height": 180,
+            "DataSeed": 1076736118,
+            "NumberOfValues": 100,
+            "MaxY": 5000.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 37,
+            "LabelSizeBottom": 5,
+            "LabelSizeLeft": 43,
+            "PaddingTop": 6,
+            "PaddingBottom": 6,
+            "PaddingLeft": 6,
+            "PaddingRight": 6,
+            "GraphType": "GraphWrapClear",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255,
+                  "Green": 143,
+                  "Blue": 108
+                }
+              }
+            ],
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 1000.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 64,
+                "Green": 126,
+                "Blue": 201
+              },
+              "TextId": "__SingleUse_FTOT",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "EV_Text",
+            "X": 130,
+            "Y": 141,
+            "Width": 39,
+            "Height": 15,
+            "TextId": "__SingleUse_8DAW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_6OE1",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Stat_Text",
+            "X": 94,
+            "Y": 306,
+            "Width": 85,
+            "Height": 15,
+            "TextId": "__SingleUse_8NTR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Flicker_Text",
+            "X": 151,
+            "Y": 321,
+            "Width": 35,
+            "Height": 15,
+            "TextId": "__SingleUse_7UF1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_HTGK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PEC_Stat_Text",
+            "X": 52,
+            "Y": 126,
+            "Width": 169,
+            "Height": 15,
+            "TextId": "__SingleUse_4HLV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PC_Text",
+            "X": 61,
+            "Y": 84,
+            "Width": 150,
+            "Height": 15,
+            "TextId": "__SingleUse_EG9S",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ER_Text",
+            "X": 70,
+            "Y": 141,
+            "Width": 60,
+            "Height": 15,
+            "TextId": "__SingleUse_H7SB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Kev_Text",
+            "X": 171,
+            "Y": 141,
+            "Width": 35,
+            "Height": 15,
+            "TextId": "__SingleUse_9NGJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Flkr_Text",
+            "X": 83,
+            "Y": 321,
+            "Width": 68,
+            "Height": 15,
+            "TextId": "__SingleUse_V02W",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Ratio_Text",
+            "X": 186,
+            "Y": 321,
+            "Width": 9,
+            "Height": 15,
+            "TextId": "__SingleUse_LV3O",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "updateGraphInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraph"
+            }
+          },
+          {
+            "InteractionName": "changeScreenUpInt",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_1_Statistics Change_Screen_Up"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_1"
+            }
+          },
+          {
+            "InteractionName": "changeScreenRightInt",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_1_Statistics Change_Screen_Right"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_1_LP_Statistics"
+            }
+          },
+          {
+            "InteractionName": "screenInitInt",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "screenInit"
+            }
+          },
+          {
+            "InteractionName": "checkI2CStatusInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "checkI2CStatus"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "Change_Screen_Up"
+          },
+          {
+            "Name": "Change_Screen_Right"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_1_LP_Statistics",
+        "Components": [
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_1",
+            "X": 136,
+            "Y": 160,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_2",
+            "X": 68,
+            "Y": 160,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_0",
+            "X": 204,
+            "Y": 160,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_3",
+            "Y": 160,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "Image",
+            "Name": "Logo_BG",
+            "Width": 272,
+            "Height": 160,
+            "RelativeFilename": "BG.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Banner",
+            "Width": 272,
+            "Height": 63,
+            "RelativeFilename": "Screen 1.png"
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_5",
+            "X": 136,
+            "Y": 240,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_6",
+            "X": 68,
+            "Y": 240,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_4",
+            "X": 204,
+            "Y": 240,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_7",
+            "Y": 240,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_15",
+            "Y": 400,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_12",
+            "X": 204,
+            "Y": 400,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_14",
+            "X": 68,
+            "Y": 400,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_13",
+            "X": 136,
+            "Y": 400,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_11",
+            "Y": 320,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_8",
+            "X": 204,
+            "Y": 320,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_10",
+            "X": 68,
+            "Y": 320,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_9",
+            "X": 136,
+            "Y": 320,
+            "Width": 68,
+            "Height": 80,
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LP_Text",
+            "X": 65,
+            "Y": 104,
+            "Width": 139,
+            "Height": 15,
+            "TextId": "__SingleUse_ZG16",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "screenInitInt",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "screenInit"
+            }
+          },
+          {
+            "InteractionName": "readLpCountersInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "readLpCounters"
+            }
+          },
+          {
+            "InteractionName": "changeScreenLeft",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_1_LP_Statistics changeScreenLeft"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_1_Statistics"
+            }
+          },
+          {
+            "InteractionName": "checkI2CStatusInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "checkI2CStatus"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "changeScreenLeft"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "BG_Small",
+            "Width": 272,
+            "Height": 160,
+            "RelativeFilename": "BG.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "GenX_Logo",
+            "Width": 272,
+            "Height": 63,
+            "RelativeFilename": "Screen 1.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "PM2_Button",
+            "X": 1,
+            "Y": 120,
+            "Width": 135,
+            "Height": 40,
+            "Pressed": "LP_Button_Big_New.png",
+            "Released": "LP_Button_Big_New.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PM_Text",
+            "X": 65,
+            "Y": 85,
+            "Width": 143,
+            "Height": 17,
+            "TextId": "__SingleUse_LNO4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "PM0_Button",
+            "X": 136,
+            "Y": 120,
+            "Width": 135,
+            "Height": 40,
+            "Pressed": "UULP_Button_Big_New.png",
+            "Released": "UULP_Button_Big_New.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PM_Text_2",
+            "X": 12,
+            "Y": 125,
+            "Width": 112,
+            "Height": 35,
+            "TextId": "__SingleUse_P0GJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 104,
+              "Green": 91,
+              "Blue": 199
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PM_Text_5",
+            "X": 154,
+            "Y": 132,
+            "Width": 108,
+            "Height": 17,
+            "TextId": "__SingleUse_V6VJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 104,
+              "Green": 91,
+              "Blue": 199
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "screenInitInt",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "screenInit"
+            }
+          },
+          {
+            "InteractionName": "changeScreenLeftInt",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_2 changeScreenLeft"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_1"
+            }
+          },
+          {
+            "InteractionName": "changeScreenRightInt",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_2 changeScreenRight"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_3_LT"
+            }
+          },
+          {
+            "InteractionName": "changeScreenPM0Int",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_2 PM0_Screen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_2_PM0"
+            }
+          },
+          {
+            "InteractionName": "changeScreenPM2Int",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_2 PM2_Screen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_2_PM2"
+            }
+          },
+          {
+            "InteractionName": "checkI2CStatusInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "checkI2CStatus"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "changeScreenRight"
+          },
+          {
+            "Name": "changeScreenLeft"
+          },
+          {
+            "Name": "PM2_Screen"
+          },
+          {
+            "Name": "PM0_Screen"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_2_PM2",
+        "Components": [
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Outer_Box",
+            "Y": 164,
+            "Width": 272,
+            "Height": 272,
+            "Color": {
+              "Red": 30,
+              "Green": 37,
+              "Blue": 52
+            },
+            "BorderColor": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_11",
+            "X": 6,
+            "Y": 300,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_10",
+            "X": 71,
+            "Y": 300,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_8",
+            "X": 201,
+            "Y": 300,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_9",
+            "X": 136,
+            "Y": 300,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_13",
+            "X": 136,
+            "Y": 365,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_12",
+            "X": 201,
+            "Y": 365,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_14",
+            "X": 71,
+            "Y": 365,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_15",
+            "X": 6,
+            "Y": 365,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_7",
+            "X": 6,
+            "Y": 235,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_6",
+            "X": 71,
+            "Y": 235,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_4",
+            "X": 201,
+            "Y": 235,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_5",
+            "X": 136,
+            "Y": 235,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_1",
+            "X": 136,
+            "Y": 170,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_0",
+            "X": 201,
+            "Y": 170,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_2",
+            "X": 71,
+            "Y": 170,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "Counter_3",
+            "X": 6,
+            "Y": 170,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "Image",
+            "Name": "Filler_1",
+            "Y": 120,
+            "Width": 272,
+            "Height": 44,
+            "RelativeFilename": "Filler_4.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Filler_2",
+            "Y": 436,
+            "Width": 272,
+            "Height": 44,
+            "RelativeFilename": "Filler_4.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Inst",
+            "X": 15,
+            "Y": 136,
+            "Width": 241,
+            "Height": 12,
+            "RelativeFilename": "Wave from left to right to wake up the system.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Awake",
+            "Y": 127,
+            "Width": 272,
+            "Height": 30,
+            "RelativeFilename": "Group 13.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "BG_Small",
+            "Width": 272,
+            "Height": 120,
+            "RelativeFilename": "BG_Small.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PC_Text",
+            "X": 61,
+            "Y": 84,
+            "Width": 150,
+            "Height": 15,
+            "TextId": "__SingleUse_IDYB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 193,
+              "Green": 207,
+              "Blue": 221
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "Banner",
+            "Width": 272,
+            "Height": 63,
+            "RelativeFilename": "Screen 2.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "lowPowerModeInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "lowPowerMode"
+            }
+          },
+          {
+            "InteractionName": "readLPWInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "readLPW"
+            }
+          },
+          {
+            "InteractionName": "screenInitInt",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "screenInit"
+            }
+          },
+          {
+            "InteractionName": "changeScreen2Int",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_2_PM2 changeScreenToModeSelection"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_2"
+            }
+          },
+          {
+            "InteractionName": "checkI2CStatusInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "checkI2CStatus"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "changeScreenToModeSelection"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_2_PM0",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "BG",
+            "Y": 120,
+            "Width": 272,
+            "Height": 360,
+            "RelativeFilename": "Graph Bg Big.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "BG_Small",
+            "Width": 272,
+            "Height": 120,
+            "RelativeFilename": "BG_Small.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Mode_Text",
+            "X": 54,
+            "Y": 85,
+            "Width": 165,
+            "Height": 15,
+            "TextId": "__SingleUse_VJZ1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "GenX320_Logo",
+            "Width": 272,
+            "Height": 63,
+            "RelativeFilename": "Screen 3_new.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "Ret_Button",
+            "X": 46,
+            "Y": 418,
+            "Width": 180,
+            "Height": 30,
+            "Pressed": "ES_Button_Big.png",
+            "Released": "ES_Button_Big.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Return_Text",
+            "X": 65,
+            "Y": 425,
+            "Width": 143,
+            "Height": 17,
+            "TextId": "__SingleUse_JRR8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Banner_Text",
+            "X": 175,
+            "Y": 16,
+            "Width": 91,
+            "Height": 32,
+            "TextId": "__SingleUse_T763",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 126,
+              "Blue": 201
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Inst_Text",
+            "X": 20,
+            "Y": 256,
+            "Width": 234,
+            "Height": 32,
+            "TextId": "__SingleUse_HPNM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 114,
+              "Blue": 118
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "changeScreen2Int",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Ret_Button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_2"
+            }
+          },
+          {
+            "InteractionName": "screenInitInt",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "screenInit"
+            }
+          },
+          {
+            "InteractionName": "readGPIOInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "readGPIO"
+            }
+          },
+          {
+            "InteractionName": "changeScreen1Int",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_2_PM0 PM0Wakeup"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_2_PM2"
+            }
+          },
+          {
+            "InteractionName": "checkI2CStatusInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "checkI2CStatus"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "PM0Wakeup"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_3_LT",
+        "CanvasBufferSize": 4080,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Logo_BG",
+            "Width": 272,
+            "Height": 160,
+            "RelativeFilename": "BG.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "R5_Text",
+            "X": 45,
+            "Y": 104,
+            "Width": 183,
+            "Height": 19,
+            "TextId": "__SingleUse_4VP2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 216,
+              "Green": 223,
+              "Blue": 236
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "GenX320_Logo",
+            "Width": 272,
+            "Height": 63,
+            "RelativeFilename": "Screen 3_new.png"
+          },
+          {
+            "Type": "Line",
+            "Name": "horizontalLine",
+            "Y": 160,
+            "Width": 272,
+            "Height": 320,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndX": 272.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "verticalLine",
+            "Y": 160,
+            "Width": 272,
+            "Height": 320,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 320.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 166,
+            "Y": 21,
+            "Width": 99,
+            "Height": 16,
+            "RelativeFilename": "RISC-V.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "changeScreenLeftInt",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_3_LT changeScreenLeft"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_2"
+            }
+          },
+          {
+            "InteractionName": "screenInitInt",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "screenInit"
+            }
+          },
+          {
+            "InteractionName": "updateCoordinatesInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateCoordinates"
+            }
+          },
+          {
+            "InteractionName": "checkI2CStatusInt",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "checkI2CStatus"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "changeScreenLeft"
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "STM32_TouchGFX",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 32,
+    "StartupScreenName": "Screen_1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      32
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp",
+      "24": "LCD24bpp",
+      "32": "LCD32bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD32bpp": {
+        "Id": "LCD32bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../GenX320_STM32_V2.0.0.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.22.0",
+  "CreatedBy": "4.22.0"
+}

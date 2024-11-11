@@ -1,0 +1,13 @@
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:751:16:QSPI_AutoPollingMemReady.constprop	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:705:16:QSPI_WriteEnable.constprop	2
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:194:9:BSP_QSPI_Read	3
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:240:9:BSP_QSPI_Write	7
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:314:9:BSP_QSPI_Erase_Block	3
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:356:9:BSP_QSPI_Erase_Chip	3
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:396:9:BSP_QSPI_GetStatus	5
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:449:9:BSP_QSPI_GetInfo	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:465:9:BSP_QSPI_EnableMemoryMappedMode	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:510:13:BSP_QSPI_MspInit	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:124:9:BSP_QSPI_Init	11
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:576:13:BSP_QSPI_MspDeInit	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c:171:9:BSP_QSPI_DeInit	2

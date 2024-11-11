@@ -1,0 +1,4 @@
+../Application/User/Core/tasks.c:34:6:psee_esp_lpw_task	2
+../Application/User/Core/tasks.c:69:6:psee_statistics_task	1
+../Application/User/Core/tasks.c:108:6:psee_activity_map_task	1
+../Application/User/Core/tasks.c:131:6:psee_led_tracking_task	1

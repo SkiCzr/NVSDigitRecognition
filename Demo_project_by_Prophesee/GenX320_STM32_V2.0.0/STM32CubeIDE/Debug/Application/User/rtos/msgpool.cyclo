@@ -1,0 +1,8 @@
+../Application/User/rtos/msgpool.c:59:13:xMsgPoolAllocate	1
+../Application/User/rtos/msgpool.c:74:13:xMsgPoolAllocateFromISR	2
+../Application/User/rtos/msgpool.c:91:13:xMsgPoolGet	1
+../Application/User/rtos/msgpool.c:108:12:xMsgPoolPost	1
+../Application/User/rtos/msgpool.c:121:12:xMsgPoolPostFromISR	1
+../Application/User/rtos/msgpool.c:135:12:xMsgPoolRelease	1
+../Application/User/rtos/msgpool.c:148:12:xMsgPoolReleaseFromISR	1
+../Application/User/rtos/msgpool.c:164:12:xMsgPoolCreate	8

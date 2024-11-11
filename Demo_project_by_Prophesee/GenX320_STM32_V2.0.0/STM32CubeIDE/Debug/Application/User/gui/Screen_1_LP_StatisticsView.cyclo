@@ -1,0 +1,14 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:30:6:virtual void Screen_1_LP_StatisticsView::tearDownScreen()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:62:6:virtual void Screen_1_LP_StatisticsView::screenInit()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:87:6:virtual void Screen_1_LP_StatisticsView::updateScreen()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:95:6:virtual void Screen_1_LP_StatisticsView::readLpCounters()	3
+../../TouchGFX/gui/include/gui/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.hpp:11:13:Screen_1_LP_StatisticsView::~Screen_1_LP_StatisticsView()	1
+../../TouchGFX/gui/include/gui/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.hpp:11:13:virtual Screen_1_LP_StatisticsView::~Screen_1_LP_StatisticsView()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:71:6:virtual void Screen_1_LP_StatisticsView::checkI2CStatus()	3
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:38:6:virtual void Screen_1_LP_StatisticsView::handleClickEvent(const touchgfx::ClickEvent&)	4
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:20:1:Screen_1_LP_StatisticsView::Screen_1_LP_StatisticsView()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:109:1:cpp)	2
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:109:1:cpp)	2
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsView.cpp:25:6:virtual void Screen_1_LP_StatisticsView::setupScreen()	1

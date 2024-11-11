@@ -1,0 +1,7 @@
+../Application/User/Core/psee_sensor_wrapper.c:54:13:psee_sleep_us_imp	0	static
+../Application/User/Core/psee_sensor_wrapper.c:71:6:psee_sleep_ms_imp	0	static
+../Application/User/Core/psee_sensor_wrapper.c:80:6:psee_sensor_write	16	static
+../Application/User/Core/psee_sensor_wrapper.c:99:6:psee_sensor_read	24	static
+../Application/User/Core/psee_sensor_wrapper.c:116:6:psee_sensor_sequential_read	24	static
+../Application/User/Core/psee_sensor_wrapper.c:134:6:psee_sensor_sequential_write	8	static
+../Application/User/Core/psee_sensor_wrapper.c:144:6:psee_sensor_platform_init	8	static

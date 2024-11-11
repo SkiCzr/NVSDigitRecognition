@@ -1,0 +1,8 @@
+../Application/User/rtos/msgpool.c:59:13:xMsgPoolAllocate	16	static
+../Application/User/rtos/msgpool.c:74:13:xMsgPoolAllocateFromISR	16	static
+../Application/User/rtos/msgpool.c:91:13:xMsgPoolGet	16	static
+../Application/User/rtos/msgpool.c:108:12:xMsgPoolPost	16	static
+../Application/User/rtos/msgpool.c:121:12:xMsgPoolPostFromISR	16	static
+../Application/User/rtos/msgpool.c:135:12:xMsgPoolRelease	16	static
+../Application/User/rtos/msgpool.c:148:12:xMsgPoolReleaseFromISR	16	static
+../Application/User/rtos/msgpool.c:164:12:xMsgPoolCreate	56	static

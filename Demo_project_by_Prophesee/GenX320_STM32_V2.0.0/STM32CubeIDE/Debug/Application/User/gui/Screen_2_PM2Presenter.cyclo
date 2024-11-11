@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/screen_2_pm2_screen/Screen_2_PM2Presenter.hpp:28:13:Screen_2_PM2Presenter::~Screen_2_PM2Presenter()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_2_pm2_screen/Screen_2_PM2Presenter.cpp:10:6:virtual void Screen_2_PM2Presenter::activate()	1
+../../TouchGFX/gui/include/gui/screen_2_pm2_screen/Screen_2_PM2Presenter.hpp:28:13:virtual Screen_2_PM2Presenter::~Screen_2_PM2Presenter()	1
+../../TouchGFX/gui/include/gui/screen_2_pm2_screen/Screen_2_PM2Presenter.hpp:28:13:virtual void* Screen_2_PM2Presenter::_ZThn4_N21Screen_2_PM2PresenterD1Ev()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_2_pm2_screen/Screen_2_PM2Presenter.cpp:4:1:Screen_2_PM2Presenter::Screen_2_PM2Presenter(Screen_2_PM2View&)	1

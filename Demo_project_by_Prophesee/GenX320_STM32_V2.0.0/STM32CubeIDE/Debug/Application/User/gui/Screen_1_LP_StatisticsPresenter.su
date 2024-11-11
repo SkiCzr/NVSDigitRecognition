@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsPresenter.hpp:28:13:Screen_1_LP_StatisticsPresenter::~Screen_1_LP_StatisticsPresenter()	0	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsPresenter.cpp:10:6:virtual void Screen_1_LP_StatisticsPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsPresenter.hpp:28:13:virtual Screen_1_LP_StatisticsPresenter::~Screen_1_LP_StatisticsPresenter()	8	static
+../../TouchGFX/gui/include/gui/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsPresenter.hpp:28:13:virtual void* Screen_1_LP_StatisticsPresenter::_ZThn4_N31Screen_1_LP_StatisticsPresenterD1Ev()	0	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_lp_statistics_screen/Screen_1_LP_StatisticsPresenter.cpp:4:1:Screen_1_LP_StatisticsPresenter::Screen_1_LP_StatisticsPresenter(Screen_1_LP_StatisticsView&)	0	static

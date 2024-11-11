@@ -1,0 +1,5 @@
+../Application/User/Core/gui_com.c:73:19:set_layer_transparency	1
+../Application/User/Core/gui_com.c:88:6:enable_lcd_layer_event	1
+../Application/User/Core/gui_com.c:99:13:get_lock_sem_count	1
+../Application/User/Core/gui_com.c:120:10:pc_interpolate	1
+../Application/User/Core/gui_com.c:139:15:color_interpolate	1

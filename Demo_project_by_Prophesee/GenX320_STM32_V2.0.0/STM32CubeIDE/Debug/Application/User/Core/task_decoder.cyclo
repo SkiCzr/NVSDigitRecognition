@@ -1,0 +1,3 @@
+../Application/User/Core/task_decoder.c:125:13:decode_evt2	7
+../Application/User/Core/task_decoder.c:55:6:disable_hot_pixels	10
+../Application/User/Core/task_decoder.c:172:6:task_evt_decoder	7

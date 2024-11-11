@@ -1,0 +1,4 @@
+../Application/User/rtos/drv_i2c.c:30:12:xDrvI2cCreate	5
+../Application/User/rtos/drv_i2c.c:64:12:ucDrvI2cReadBytes	4
+../Application/User/rtos/drv_i2c.c:97:12:ucDrvI2cWriteBytes	2
+../Application/User/rtos/drv_i2c.c:121:12:ucDrvI2cCallback	2

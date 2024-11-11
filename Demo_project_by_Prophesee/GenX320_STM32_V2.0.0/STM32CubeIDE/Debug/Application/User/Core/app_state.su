@@ -1,0 +1,9 @@
+../Application/User/Core/app_state.c:117:13:suspend_rtos_task	8	static
+../Application/User/Core/app_state.c:89:13:resume_rtos_task	8	static
+../Application/User/Core/app_state.c:144:6:enter_view	8	static
+../Application/User/Core/app_state.c:199:6:enter_statistics_view	8	static
+../Application/User/Core/app_state.c:224:6:enter_LP_statistics_view	8	static
+../Application/User/Core/app_state.c:250:6:enter_view2	8	static
+../Application/User/Core/app_state.c:278:6:enter_PM2_view	16	static
+../Application/User/Core/app_state.c:322:6:enter_PM0_view	8	static
+../Application/User/Core/app_state.c:344:6:enter_LT_view	16	static

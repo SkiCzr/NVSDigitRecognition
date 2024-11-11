@@ -1,0 +1,4 @@
+../Application/User/rtos/drv_i2c.c:30:12:xDrvI2cCreate	32	static
+../Application/User/rtos/drv_i2c.c:64:12:ucDrvI2cReadBytes	32	static
+../Application/User/rtos/drv_i2c.c:97:12:ucDrvI2cWriteBytes	24	static
+../Application/User/rtos/drv_i2c.c:121:12:ucDrvI2cCallback	16	static,ignoring_inline_asm

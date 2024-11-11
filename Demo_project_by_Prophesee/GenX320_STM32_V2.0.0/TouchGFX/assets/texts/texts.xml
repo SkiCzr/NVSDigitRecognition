@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="ResourceId2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Prophesee</Translation>
+      </Text>
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_JU2A" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="__SingleUse_OS4M" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_HPNM" Alignment="Center" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Note: Please use the modified device to try&#10;the Ultra-low power passive mode.</Translation>
+      </Text>
+      <Text Id="__SingleUse_IDYB" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Power Consumption - 3 mW</Translation>
+      </Text>
+      <Text Id="__SingleUse_LV3O" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">%</Translation>
+      </Text>
+      <Text Id="__SingleUse_V02W" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Flicker Ratio</Translation>
+      </Text>
+      <Text Id="__SingleUse_9NGJ" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Kevt/s</Translation>
+      </Text>
+      <Text Id="__SingleUse_H7SB" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Event Rate</Translation>
+      </Text>
+      <Text Id="__SingleUse_EG9S" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Power Consumption - 3 mW</Translation>
+      </Text>
+      <Text Id="__SingleUse_HC5R" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Power Consumption (mW)</Translation>
+      </Text>
+      <Text Id="__SingleUse_T763" Alignment="Left" TypographyId="Nexa_Bold_10">
+        <Translation Language="GB">ULTRA LOW &#10;POWER PASSIVE</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZG16" Alignment="Center" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Low Power Activity Map</Translation>
+      </Text>
+      <Text Id="__SingleUse_JRR8" Alignment="Center" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Return</Translation>
+      </Text>
+      <Text Id="__SingleUse_VJZ1" Alignment="Center" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Ultra Low Power Passive Mode</Translation>
+      </Text>
+      <Text Id="__SingleUse_4VP2" Alignment="Center" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">LED Tracking Application</Translation>
+      </Text>
+      <Text Id="__SingleUse_LNO4" Alignment="Center" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Power Mode Selection</Translation>
+      </Text>
+      <Text Id="__SingleUse_V6VJ" Alignment="Center" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">ULP Passive Mode</Translation>
+      </Text>
+      <Text Id="__SingleUse_P0GJ" Alignment="Center" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Low Power Monitor &#10;Mode</Translation>
+      </Text>
+      <Text Id="__SingleUse_J2TV" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Kevts/s</Translation>
+      </Text>
+      <Text Id="__SingleUse_YYMQ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Prediction&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_4HLV" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">Pixel Event Counter - Statistics</Translation>
+      </Text>
+      <Text Id="__SingleUse_6OE1" Alignment="Left" TypographyId="Nexa_11">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_HTGK" Alignment="Left" TypographyId="Nexa_11">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_7UF1" Alignment="Center" TypographyId="Font_11">
+        <Translation Language="GB"> - &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8NTR" Alignment="Left" TypographyId="Nexa_Bold_11">
+        <Translation Language="GB">AFK - Statistics</Translation>
+      </Text>
+      <Text Id="__SingleUse_5QQ6" Alignment="Right" TypographyId="Font_10">
+        <Translation Language="GB">&lt;&gt; %</Translation>
+      </Text>
+      <Text Id="__SingleUse_FTOT" Alignment="Center" TypographyId="Font_10">
+        <Translation Language="GB">&lt;&gt; K</Translation>
+      </Text>
+      <Text Id="__SingleUse_8DAW" Alignment="Center" TypographyId="Font_11">
+        <Translation Language="GB"> - &lt;value&gt; </Translation>
+      </Text>
+      <Text Id="__SingleUse_JNFW" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_GAAU" Alignment="Center" TypographyId="Font_11">
+        <Translation Language="GB">&lt;value&gt; </Translation>
+      </Text>
+      <Text Id="__SingleUse_8T2K" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB"></Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="22" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Font_10" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" WildcardCharacterRanges="!-~" />
+    <Typography Id="Font_13" Font="verdana.ttf" Size="13" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Font_11" Font="verdana.ttf" Size="130" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Font_12" Font="verdana.ttf" Size="12" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Font_18" Font="verdana.ttf" Size="18" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Font_14" Font="verdana.ttf" Size="14" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Nexa_11" Font="Nexa-Regular.otf" Size="11" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Nexa_Bold_11" Font="Nexa-XBold.otf" Size="11" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Nexa_Bold_10" Font="Nexa-XBold.otf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+  </Typographies>
+</TextDatabase>

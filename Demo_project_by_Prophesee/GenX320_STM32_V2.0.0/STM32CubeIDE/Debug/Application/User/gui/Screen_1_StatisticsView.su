@@ -1,0 +1,12 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_statistics_screen/Screen_1_StatisticsView.cpp:25:6:virtual void Screen_1_StatisticsView::tearDownScreen()	0	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_statistics_screen/Screen_1_StatisticsView.cpp:63:6:virtual void Screen_1_StatisticsView::screenInit()	0	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_statistics_screen/Screen_1_StatisticsView.cpp:88:6:virtual void Screen_1_StatisticsView::updateScreen()	0	static
+../../TouchGFX/gui/include/gui/screen_1_statistics_screen/Screen_1_StatisticsView.hpp:11:13:Screen_1_StatisticsView::~Screen_1_StatisticsView()	8	static
+../../TouchGFX/gui/include/gui/screen_1_statistics_screen/Screen_1_StatisticsView.hpp:11:13:virtual Screen_1_StatisticsView::~Screen_1_StatisticsView()	8	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_statistics_screen/Screen_1_StatisticsView.cpp:72:6:virtual void Screen_1_StatisticsView::checkI2CStatus()	16	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_statistics_screen/Screen_1_StatisticsView.cpp:33:6:virtual void Screen_1_StatisticsView::handleClickEvent(const touchgfx::ClickEvent&)	8	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_statistics_screen/Screen_1_StatisticsView.cpp:15:1:Screen_1_StatisticsView::Screen_1_StatisticsView()	8	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_statistics_screen/Screen_1_StatisticsView.cpp:20:6:virtual void Screen_1_StatisticsView::setupScreen()	0	static
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_statistics_screen/Screen_1_StatisticsView.cpp:96:6:virtual void Screen_1_StatisticsView::updateGraph()	16	static

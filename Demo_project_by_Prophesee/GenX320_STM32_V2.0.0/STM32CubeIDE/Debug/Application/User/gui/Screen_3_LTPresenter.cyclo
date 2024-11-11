@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/screen_3_lt_screen/Screen_3_LTPresenter.hpp:28:13:Screen_3_LTPresenter::~Screen_3_LTPresenter()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_3_lt_screen/Screen_3_LTPresenter.cpp:10:6:virtual void Screen_3_LTPresenter::activate()	1
+../../TouchGFX/gui/include/gui/screen_3_lt_screen/Screen_3_LTPresenter.hpp:28:13:virtual Screen_3_LTPresenter::~Screen_3_LTPresenter()	1
+../../TouchGFX/gui/include/gui/screen_3_lt_screen/Screen_3_LTPresenter.hpp:28:13:virtual void* Screen_3_LTPresenter::_ZThn4_N20Screen_3_LTPresenterD1Ev()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_3_lt_screen/Screen_3_LTPresenter.cpp:4:1:Screen_3_LTPresenter::Screen_3_LTPresenter(Screen_3_LTView&)	1

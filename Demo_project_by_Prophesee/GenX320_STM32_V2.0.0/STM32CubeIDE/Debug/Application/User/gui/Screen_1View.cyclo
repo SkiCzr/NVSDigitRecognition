@@ -1,0 +1,12 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp:30:6:virtual void Screen_1View::tearDownScreen()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp:76:6:virtual void Screen_1View::screenInit()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp:68:6:virtual void Screen_1View::updateScreen()	1
+../../TouchGFX/gui/include/gui/screen_1_screen/Screen_1View.hpp:11:13:Screen_1View::~Screen_1View()	1
+../../TouchGFX/gui/include/gui/screen_1_screen/Screen_1View.hpp:11:13:virtual Screen_1View::~Screen_1View()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp:85:6:virtual void Screen_1View::checkI2CStatus()	3
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp:38:6:virtual void Screen_1View::handleClickEvent(const touchgfx::ClickEvent&)	5
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp:20:1:Screen_1View::Screen_1View()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp:25:6:virtual void Screen_1View::setupScreen()	1
+C:/FINALPROJECT/genx320/GENX320_demo_project_by_Prophesee/GenX320_STM32_V2.0.0/TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp:101:6:virtual void Screen_1View::updateEvents()	1
