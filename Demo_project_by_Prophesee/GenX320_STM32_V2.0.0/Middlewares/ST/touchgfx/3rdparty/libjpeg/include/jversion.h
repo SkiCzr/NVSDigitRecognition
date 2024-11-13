@@ -3,7 +3,7 @@
  *
  * Copyright (C) 1991-2012, Thomas G. Lane, Guido Vollbeding.
  * This file is part of the Independent JPEG Group's software.
- * For conditions of distribution and use, see the accompanying README file.
+ * For conditions of distribution and use, see the accompanying README.md file.
  *
  * This file contains software version identification.
  */

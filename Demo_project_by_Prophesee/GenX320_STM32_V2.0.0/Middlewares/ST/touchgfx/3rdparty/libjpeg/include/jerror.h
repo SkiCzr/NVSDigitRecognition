@@ -4,7 +4,7 @@
  * Copyright (C) 1994-1997, Thomas G. Lane.
  * Modified 1997-2009 by Guido Vollbeding.
  * This file is part of the Independent JPEG Group's software.
- * For conditions of distribution and use, see the accompanying README file.
+ * For conditions of distribution and use, see the accompanying README.md file.
  *
  * This file defines the error and message codes for the JPEG library.
  * Edit this file to add new codes, or to translate the message strings to
