@@ -28,8 +28,11 @@ to just return the prediction.
 In order to show the predicted digit on the screen a connection needs to be made between the prediction variable and
 the GUI. This is done by using the get_prediction() method mentioned above inside TouchGFX/gui/src/screen_1_screen/Screen_1View.cpp.
 The method updateEvents() contains the label from the screen and it takes the value from get_prediction(). The project
-contains multiple screens and the microcontroller is touchscreen. All teh interfaces can be change in the MXDesigner
+contains multiple screens and the microcontroller is touchscreen. All teh interfaces can be change in the TouchGFX Designer
 software.
+
+## C++ library from github
+We used https://github.com/arnogranier/cppCNN/ repository to construct and train the weights of our CNN. We modified some of the files in order to implement weight quantization and fixed a bug which caused weights to be saved twice. Replace the files in the repository with our files in c++_library to reproduce the training phase.
 
 ## Python Scripts
 
